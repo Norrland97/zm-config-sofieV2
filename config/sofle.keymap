@@ -55,16 +55,16 @@ DELETE!--GASC för home rows----------------------------------------------------
 // TODO: Some binds are waiting for shifted keycode support.
 // ------------------------------------------------------------------------------------------------------------
 // |   '   |  `  |  F10|  F11 |  F12 |      |                   |  :   |  /    |  *    |  -   |   *   |   /   |
-// |       |ALT  |  F7 |  F8  |  F9  |      |                   |  +   |  7    |  8    |  9   |   0   |   \   |
+// |       |ALT  |  F7 |  F8  |  F9  |      |                   |  +   |  7    |  8    |  9   |   0   |   \   |                                 
 // |       |SHIFT|  F4 |  F5  |  F6  |      |                   |  .   |  4    |  5    |  6   |       |   |   |
 // |       |CTRL |  F1 |  F2  |  F3  |      |        |  |       |  ,   |  1    |  2    |  3   |   \   |       |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&kp SQT    &kp GRAVE  &kp F2    &kp F3      &kp F4    &kp none                  &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
-&trans     &kp N1     &kp N2    &kp N3      &kp N4    &kp none                  &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &kp F12
-&trans     &kp EXCL   &kp AT    &kp HASH    &kp DLLR  &kp none                  &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp PIPE
-&trans     &kp EQUAL  &kp MINUS &kp KP_PLUS &kp LBRC  &kp none   &trans &trans  &kp LBKT  &kp RBKT &kp SEMI        &kp COLON &kp BSLH  &trans
-                      &trans    &trans      &trans    &trans     &trans &trans  &trans    &trans   &trans          &trans
+&kp SQT    &kp GRAVE  &kp F10   &kp F11     &kp F12   &none                  &kp COLON   &kp SLASH &kp STAR &kp MINUS &kp F10   &kp SLASH
+&trans     &kp LALT   &kp F7    &kp F8      &kp F9    &none                  &kp KP_PLUS &kp N7    &kp N8   &kp N9    &kp N0    &kp BLSH
+&trans     &kp LSHFT  &kp F4    &kp F5      &kp F6    &none                  &kp DOT     &kp N4    &kp N5   &kp N6    &none     &kp PIPE
+&trans     &kp LCTRL  &kp F1    &kp F2      &kp F3    &none   &trans &trans  &kp COMMA   &kp N1    &kp N2   &kp N3    &kp BSLH  &trans
+                      &trans    &trans      &trans    &trans  &trans &trans  &trans      &trans    &trans   &trans
             >;
 
             sensor-bindings = < &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN &inc_dec_kp C_VOL_UP C_VOL_DN>;
