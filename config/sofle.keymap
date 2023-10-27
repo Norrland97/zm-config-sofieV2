@@ -77,11 +77,11 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  | >/||  |  N   |  M   |  ,   |  .   |   -   | SHIFT |
 //               | CTRL| bkspc| SHIFT| NUMS |  ENTER |  | SPACE | RAISE| SHIFT| DEL  |CTRL  |
             bindings = <
-&kp TILDE &kp N1      &kp N2     &kp N3      &kp N4      &kp N5                                 &kp N6     &kp N7      &kp N8      &kp N9     &kp N0     &BSPC
+&kp TILDE &kp N1      &kp N2     &kp N3      &kp N4      &kp N5                                 &kp N6     &kp N7      &kp N8      &kp N9     &kp N0     &kp BSPC
 &kp ESC   &kp Q       &kp W      &kp E       &kp R       &kp T                                  &kp Y      &kp U       &kp I       &kp O      &kp P      &ao_macro
 &kp TAB   &mt LGUI A  &mt LALT S &mt LSHFT D &mt LCTRL F &kp G                                  &kp H      &mt RCTRL J &mt RSHFT K &mt RALT L &mt RGUI oo_macro &ae_macro
 &kp LSHFT &kp Z       &kp X      &kp C       &kp V       &kp B     &kp C_MUTE &kp K_PLAY_PAUSE  &kp N      &kp M       &kp COMMA   &kp DOT    &kp MINUS  &kp RSHFT
-                      &kp LCTRL  &BSPC       &kp SPECIAL &mo NUMS  &kp RET    &kp SPACE         &mo RAISE  &kp RSHIFT  &DEL    &kp RCTRL
+                      &kp LCTRL  &kp BSPC       &kp SPECIAL &mo NUMS  &kp RET    &kp SPACE         &mo RAISE  &kp RSHIFT  &DEL    &kp RCTRL
             >;
 
             sensor-bindings = < &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN &inc_dec_kp C_VOL_UP C_VOL_DN>;
